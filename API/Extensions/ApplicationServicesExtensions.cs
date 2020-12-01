@@ -17,6 +17,7 @@ namespace API.Extensions
         {
             //Ajout des répositories
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             
             //Ajouter le service de gestion des erreurs
