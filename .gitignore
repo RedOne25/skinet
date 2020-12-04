@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.rdb
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -433,3 +434,4 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 appsettings.json
 appsettings.Development.json
+API/dump.rdb
