@@ -1,9 +1,8 @@
-﻿
-using API.Dtos;
+﻿using API.Dtos;
 using AutoMapper;
 using Core.Entities;
+using Core.Entities.Identity;
 using Core.Entities.OrderAggregate;
-using Address = Core.Entities.Identity.Address;
 
 namespace API.Helpers
 {
