@@ -13,10 +13,10 @@
 
 a {
     text-decoration: none;
-    color: #343a40;
+    color: white;
 
     &.active {
-        color: orange;
+        color: blue;
     }
 }
 
@@ -26,4 +26,56 @@ a {
     &:focus {
         outline: none;
     }
+}
+  .input-group{
+    height: 50px;
+    border-radius: 30px;
+    outline-width: 1px;
+    outline-color: white;
+    margin-left: 50px;
+    align-items: center;
+    border: solid 1px;
+    border-color: white;
+    background-color: white;
+    }
+
+    .search_input{
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 750px;
+    caret-color:red;
+    line-height: 40px;
+    }
+
+
+    .input-group:hover > .search_icon{
+    background: rgb(56, 56, 56);;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    }
+
+.navbar-dark {
+    background-color: rgb(56, 56, 56);
+}
+
+.custom-select {
+    font-size: 16px;
+    font-weight: bold;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 200px;
+    background-color: white;
+    border: solid 1px;
+    height: 48px;
 }
